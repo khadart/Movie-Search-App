@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime-Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="movie-header">
+        <img class="image" src="amazon-primee.jpg">
+        <h2 class="title">Search Unlimited Movies, TV Shows ane More</h2>
+        <div class="header">
+            <input type="text" placeholder="Search here..." id="movieName">
+            <button class="btn" onclick="search()">Search Movie</button>
+        </div>
+    </div>
+
+    <div class="movie-container" id="movie-container">
+        <div class="movie-details">
+            <div class="details">
+                <h1 class="title" id="title"> RRR </h1>
+                <p> Actors: <span id="actors"> NTR , Ram Charan</span></p>
+                <p> Directors: <span id="director"> SSR</span></p>
+                <p> Awards:<span id="awards"> Oscars</span></p>
+                <p> Box Office Collection: <span id="collection">$660M</span></p>
+            </div>
+        </div>
+        <img  id="poster" src="RRR_Poster.jpg">
+    </div>
+
+    <h1 class="error" id="error"></h1>
+
+    <script src="movie.js"></script>
+</body>
+
+</html>
